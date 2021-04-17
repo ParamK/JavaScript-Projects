@@ -1,0 +1,437 @@
+body{
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+}
+
+/*HEADER AND NAVBAR*/
+
+.navbar{
+    padding: 0 1.5rem 0 1.5rem;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+}
+
+
+/*FIXED NAVBAR*/
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+
+.navbar-light .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.5rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: slategrey;
+}
+
+/*SECTION CENTER*/
+.section-center{
+    margin-top: 5rem;
+}
+.para-blue{
+    font-size: 1.5rem;
+    color: #2d9cdb;
+}
+
+.heading{
+    font-size: 2.8rem;
+}
+
+.img-people{
+    width: 100%;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 800px){
+    .heading{
+        font-size: 2rem;
+    }
+    .para-blue{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+
+/*CONTACT*/
+
+.contact{
+    margin-top: 3rem;
+}
+.email-input{
+    width: 300px;
+    
+    border: transparent;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    outline: none;
+    text-align:center;
+}
+
+.btn-join{
+    width: 70px;
+    padding: .5rem 0 .5rem 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 3px;
+    color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    background-color: #2d9cdb;
+    border: none;
+}
+
+.btn-join:hover{
+    opacity: 80%;
+}
+
+.input-group{
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .btn-join{
+    width: 15%;
+    padding: .5rem 0 .5rem 0;
+}
+}
+
+
+/*HIGH DEMAND SERVICES*/
+.section-services{
+    margin-top: 5rem;
+    margin-bottom: 10rem;    
+}
+
+.d-flex{
+    justify-content: space-around;
+}
+.ux-icon,.frontend-icon,.backend-icon{
+    position: relative;
+    left: -1rem;
+    top: -1rem;    
+    height: 70px;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.ux-icon{
+    background-color: #2d9cdb;
+}
+
+.frontend-icon{
+    background-color: #27ae60;;
+}
+
+.backend-icon{
+    background-color: #eb5757;
+}
+
+.services-title{
+    font-weight: 800;
+    font-family: "Heebo", sans-serif;
+}
+
+.p-services{
+    font-size: 1rem;
+}
+
+.btn-secondary{
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    color: #828282;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.card-1,.card-2,.card-3{
+    padding: 1rem;
+}
+.card-1:hover,.card-2:hover,.card-3:hover{
+    
+    box-shadow: 10px 0 30px #b3b1b1;
+    border-radius: 12px;
+    padding: 1rem;
+}
+@media only screen and (max-width: 768px){
+
+}
+
+/*SECTION DESIGN*/
+
+.section-design{
+    margin-bottom: 10rem;
+}
+.fullstack-app,.ux-design,.mobile-app,.frontend-design{
+    border-radius: 15px;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+
+.fullstack,.ux-ui,.mobile,.frontend{
+    font-size: 1rem;
+    color: #828282;   
+    margin-bottom: .5rem; 
+}
+
+.app-type{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.design-card-1{
+    margin-top: 15rem;
+}
+
+.design-card-2{
+    margin-bottom: 15rem;
+}
+
+.design-collection-1,.design-collection-2 {
+    margin-bottom: 3rem;
+}
+
+.see-more{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.see-more a{
+    text-decoration: none;
+}
+.more{
+    text-align: end;
+    color: #2d9cdb;
+    font-weight: 600;
+}
+
+.arrow-right{
+    width: 10%;
+}
+
+.more:hover{
+    opacity: 80%;
+}
+
+@media only screen and (max-width: 768px){
+    .design-card-1{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .design-card-2{
+        margin-bottom: 5rem;
+    }
+}
+
+/*MEET THE TEAM*/
+.p-team{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #eb5757;
+}
+
+.lorem{
+    font-size: 1rem;
+}
+
+.person1-icon,.person2-icon,.person3-icon{
+    border-radius: 15px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+.person1-icon{
+    margin-bottom: 1rem;
+}
+
+.person2-icon{
+    margin-top: 1rem;
+}
+
+.person3-icon{
+margin-right: 2rem;
+}
+
+.person-collage{
+    justify-content: flex-end;
+    align-items: center;
+}
+.single-person{
+    
+}
+
+.person-group{
+    flex-direction: column;
+    
+}
+
+.section-team{
+ margin-bottom: 10rem;   
+}
+
+
+@media only screen and (max-width: 576px){
+    .person1-icon,.person2-icon,.person3-icon{
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .person-collage {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+/*SECTION-CLIENT*/
+
+.client-icon{
+    width: 100px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.client-comp{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #828282;
+}
+
+.client-quote{
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.quote-text {
+    margin-left: 1rem;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+/*.footer-top{
+    
+    background-color: black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+*/
+.link-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.link-area{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+.link-area:hover{
+    color: lightgrey;
+}
+
+.footer-brand{
+    font-size: 3rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-brand:hover{
+    color: #fff;
+}
+
+.social{
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.contact-2{
+    color: #fff;
+}
+
+
+.email-input{
+    width: 250px;    
+    border: transparent;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    outline: none;
+    text-align:center;
+    height: 40px;
+}
+
+.btn-join{
+    width: 50px;
+    padding: .5rem 0 .5rem 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 0;
+    height: 40px;
+    color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    background-color: #2d9cdb;
+    border: none;
+}
+
+.btn-join:hover{
+    opacity: 80%;
+}
+
+.input-group{
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1200px){
+.email-input{
+    width: 205px;
+}
+}
+
+@media only screen and (max-width: 992px){
+    .email-input{
+        width: 145px;
+    }
+}
+   
+@media only screen and (max-width: 768px){
+    .email-input{
+        width: 165px;
+    }
+
+    .social-media{
+        margin-top: 0;
+    }
+
+    .contact-2{
+        margin-top: 2rem;
+    }
+}
