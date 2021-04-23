@@ -1,0 +1,193 @@
+@import 'utilities';
+@import 'config';
+
+/*MAIN WRAPPER*/
+.wrapper{
+    background-image:url("../docs/bg-top.svg");
+    background-repeat: no-repeat;
+    background-color: #f6f6fe;
+    
+}
+
+/*TITLE*/
+.title{
+    @extend %text;
+    font-size: 2.2rem;
+    margin: 3rem 0 3rem 0;
+}
+
+.toggle-label{
+    @extend %toggle-text;
+    cursor: pointer;
+}
+
+.toggle-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 1rem 0 1rem;
+
+    input{
+        margin: 4px;
+    }
+    
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #696fdd;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color: #696fdd;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #696fdd;
+  }
+  
+  input:checked + .slider:before {    
+    transform: translateX(26px);
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+   //CARD
+  
+   .card-plain{
+    background-color: white;    
+  }
+
+  .card-colored{
+    background: linear-gradient(to bottom, #a3a8f0, #696fdd);
+    color: white;
+    padding: 2em;
+    padding-top: 2.6em;
+    border-radius: 10px;    
+  }
+
+  .card-heading{
+    @extend %text;
+    font-size: 1.2rem;
+  }
+
+  .card-heading-colored{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;    
+  }
+  
+  .card-default{
+    border-radius: 10px;
+    padding: 2em;
+    padding-top: 2.6em;
+  }
+
+  .price,.price-colored{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .price{
+      color: #494c5f;
+  }
+  .price-colored{
+      color: white;
+  }
+
+  .figure,.figure-colored{
+    font-size: 5rem;
+  }
+
+  .card-features{
+    @extend %text;
+  }
+
+  .card-features,.card-features-colored{
+    font-size: 1.2rem;
+    list-style: none;
+    margin-bottom: 2rem;
+    padding-left: 0;
+  }
+
+  .card-features li,.card-features-colored li{
+    padding: 1.2em;
+    border-top: 1px solid #b3b5c6;
+  }
+
+  .card-features li,.card-features-colored li:last-child{          
+    border-bottom: 1px solid #b3b5c6;
+  }
+
+  .card-features-colored{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;    
+  }
+
+  .learn-more{    
+    background-color: #696fdd;
+    background: linear-gradient(to right, #a3a8f0, #696fdd);
+    color: white;
+  }
+
+  .learn-more:hover{
+    border-radius: 0;
+    background: white;
+    color:#696fdd ;
+    border: 1px solid #696fdd;    
+  }
+
+  .learn-more, .learn-more-colored{
+    width: 100%;
+    padding: 1.3em;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .learn-more-colored{    
+  background-color: white;
+  color: #696fdd ;  
+}
+
+.learn-more-colored:hover{
+  border-radius: 0;
+  background: #696fdd;
+  color:white ;
+  border: 1px solid white;  
+}
