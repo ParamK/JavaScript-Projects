@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paperpillar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <script src="app.js" defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: #f6f8fc;">
+  <!--HEADER-->
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../docs/logo-light.png" alt="" width="40" height="18">
+        </a>
+        <button class="nav-toggler" id="modalbtn" data-bs-toggle="modal" data-bs-target="#modal" type="button"
+          data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+
+          </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link link-active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-default" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-default" href="#modal" id="modalbtn" data-bs-toggle="modal">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!--CHARACTER-->
+
+    <section class="characters">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="char-group1 d-flex mb-5">
+            <div class="col-sm-12 col-md-4 boy1">
+              <img src="../docs/hero-guy-2.png" alt="Hero guy" class="guy1">
+            </div>
+            <div class="col-sm-12 col-md-4 lady">
+              <img src="../docs/hero-girl.png" alt="Hero girl" class="girl">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Title text-->
+
+    <section class="title-text">
+      <div class="container-fluid">
+        <div class="title-p">
+          <h1 class="main-title mb-3">We Are Paperpillar</h1>
+          <p>A team of passionate designers and developers from Yogyakarta</p>
+        </div>
+
+        <div class="button-talk">
+          <button class="talk" id="modalbtn" data-bs-toggle="modal" data-bs-target="#modal2" type="button">
+            <span>LET'S TALK!</span>
+          </button>
+        </div>
+
+
+        <div class="col-sm-12 col-md-4 boy3">
+          <img src="../docs/hero-guy-3.png" alt="Hero guy3" class="guy3">
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+    <!--CHARACTERS 2-->
+
+
+    <img src="../docs/hero-guy-1.png" alt="Hero guy2" class="guy2">
+
+
+
+
+
+
+
+
+
+  </header>
+
+
+
+  <!-- Modal Nav-toggle -->
+  <div class="modal-nav fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="navbar-nav">
+            <li class="nav-item modal-item">
+              <a class="nav-link link-active" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item modal-item">
+              <a class="nav-link link-default" href="#">BLOG</a>
+            </li>
+            <li class="nav-item modal-item">
+              <a class="nav-link link-default" href="#modal2" id="modalbtn" data-bs-toggle="modal"
+                data-bs-dismiss="modal">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--contact modal-->
+
+  <div class="contact-nav fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-md-down modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content-new">
+        <div class="modal-header">
+
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body-new">
+
+          <svg id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg"
+            class="curve duration-300 ease-in-out delay-150">
+            <defs>
+              <linearGradient id="gradient">
+                <stop offset="5%" stop-color="#abb8c3ff"></stop>
+                <stop offset="95%" stop-color="#7bdcb5ff"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              d="M 0,600 C 0,600 0,300 0,300 C 156.21428571428572,238.07142857142856 312.42857142857144,176.14285714285714 418,206 C 523.5714285714286,235.85714285714286 578.5000000000001,357.5 668,389 C 757.4999999999999,420.5 881.5714285714287,361.85714285714283 1016,332 C 1150.4285714285713,302.14285714285717 1295.2142857142858,301.07142857142856 1440,300 C 1440,300 1440,600 1440,600 Z"
+              stroke="none" stroke-width="0" fill="url(#gradient)"
+              class="transition-all duration-300 ease-in-out delay-150"></path>
+          </svg>
+          <div class="form">
+            <h1 class="talk">Let's Talk!</h1>
+            <p class="talk-p">We will get back to you within one to two days through email. Also please don't forget to
+              check your spam account just in case!</p>
+            <div class="mb-3">
+
+              <input type="text" class="input-control" id="formGroupExampleInput" placeholder="Name *" required>
+            </div>
+            <div class="mb-3">
+
+              <input type="text" class="input-control" id="formGroupExampleInput2" placeholder="Email *" required>
+            </div>
+            <div class="mb-3">
+
+              <input type="text" class="input-control" id="formGroupExampleInput" placeholder="Subject *" required>
+            </div>
+            <div class="mb-3">
+
+              <input type="text" class="input-control" id="formGroupExampleInput2" placeholder="Message *">
+            </div>
+            <div class="button-request">
+              <button class="request">
+                <span>SEND REQUEST</span>
+              </button>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--What we do-->
+  <section class="we-do">
+    <div class="container-fluid">
+      <div class="sections-heading">
+        <h1>
+          What We Do
+        </h1>
+      </div>
+      <div class="services">
+        <div class="row">
+
+          <div class="col-6 col-sm-4 service-card">
+            <img src="../docs/ui-ux.jpg" alt="UI-UX DESIGN" class="ux-design">
+            <h6 class="services-heading">UI/UX</h6>
+            <p class="services-p">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
+          </div>
+
+          <div class="col-6 col-sm-4 service-card">
+            <img src="../docs/icon.jpg" alt="UI-UX DESIGN" class="icon">
+            <h6 class="services-heading">Icon/Illustration</h6>
+            <p class="services-p">Character Design, Icon Set, Illustration Guide, Illustration Set</p>
+          </div>
+
+          <div class="col-6 col-sm-4 service-card">
+            <img src="../docs/branding.jpg" alt="UI-UX DESIGN" class="branding">
+            <h6 class="services-heading">Branding</h6>
+            <p class="services-p">Visual Identity, Stationary Kit, Marketing Materials</p>
+          </div>
+
+          <div class="col-6 col-sm-4 service-card">
+            <img src="../docs/web-dev.jpg" alt="UI-UX DESIGN" class="web-dev">
+            <h6 class="services-heading">Web Development</h6>
+            <p class="services-p">HTML/CSS, JavaScript Animation, WordPress, Responsive Website</p>
+          </div>
+
+          <div class="col-6 col-sm-4 service-card">
+            <img src="../docs/motion.jpg" alt="UI-UX DESIGN" class="motion">
+            <h6 class="services-heading">Motion</h6>
+            <p class="services-p">2D Animation, UI Motion</p>
+          </div>
+
+          <div class="col-6 col-sm-4 service-card">
+            <img src="../docs/photography.jpg" alt="UI-UX DESIGN" class="photography">
+            <h6 class="services-heading">Photography</h6>
+            <p class="services-p">Travel Photography, Product Photography</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Clients-->
+  <section class="clients">
+    <div class="container-fluid">
+      <div class="sections-heading">
+        <h1>
+          Clients
+        </h1>
+        <p>We’ve been working with the teams around the world.</p>
+      </div>
+
+      <div class="content-group">
+        <div class="content-card">
+
+          <div class="client-item hoopsai">
+            <img src="../docs/hoopsai.png" alt="Hoopsai">
+          </div>
+
+        </div>
+
+        <div class="content-card">
+
+          <div class="client-item agoda">
+            <img src="../docs/agoda.png" alt="agoda">
+          </div>
+          <div class="client-item getsafe">
+            <img src="../docs/getsafe.png" alt="getsafe">
+          </div>
+
+        </div>
+
+        <div class="content-card">
+
+          <div class="client-item grab">
+            <img src="../docs/grab.png" alt="grab">
+          </div>
+          <div class="client-item crisp">
+            <img src="../docs/crisp.png" alt="crisp">
+          </div>
+          <div class="client-item anyleads">
+            <img src="../docs/anyleads.png" alt="anyleads">
+          </div>
+
+        </div>
+
+        <div class="content-card">
+
+          <div class="client-item teachable">
+            <img src="../docs/teachable.png" alt="teachable">
+          </div>
+          <div class="client-item flyr">
+            <img src="../docs/flyr.png" alt="flyr">
+          </div>
+
+        </div>
+
+        <div class="content-card">
+
+          <div class="client-item roger">
+            <img src="../docs/roger.png" alt="roger">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--OUR WORKS-->
+  <section class="our-works">
+    <div class="container-fluid">
+      <div class="sections-heading">
+        <h1>
+          Our Latest Works
+        </h1>
+      </div>
+      <!--crisp-->
+      <div class="works-card crisp-card">
+
+        <div class="col-sm-12 col-md-6 works-desc">
+          <h3>Redesigning Crisp.im</h3>
+          <p>Illustration, Web Design</p>
+          <button class="view-project-crisp">
+            <span>VIEW PROJECT</span>
+          </button>
+        </div>
+
+        <div class="col-sm-12 col-md-6 works-img-crisp">
+          <img src="../docs/crisp-works.png" alt="crisp-works" class="crisp-img">
+        </div>
+
+      </div>
+
+      <!--lifecycle-->
+      <div class="works-card lifecycle-card">
+
+        <div class="col-sm-12 col-md-6 works-img-lifecycle">
+          <img src="../docs/lifecycle-works.png" alt="lifecycle" class="lifecycle-img">
+        </div>
+
+        <div class="col-sm-12 col-md-6 works-desc-lifecycle">
+          <h3>Beautiful Landing Page for Lifecycle</h3>
+          <p>Illustration, Web Design</p>
+          <button class="view-project-lifecycle">
+            <span>VIEW PROJECT</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!--calendar-->
+      <div class="works-card calendar-card">
+
+        <div class="col-sm-12 col-md-6 col-lg-6 works-desc">
+          <h3>2018 Desk Calendar Inventor Edition</h3>
+          <p>Illustration, Web Design</p>
+          <button class="view-project-calendar">
+            <span>VIEW PROJECT</span>
+          </button>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6 works-img-calendar">
+          <img src="../docs/calendar-works.jpg" alt="calendar" class="calendar-img">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="text-btn">
+        <h1>
+          Interested to work with us?
+        </h1>
+
+        <button id="modalbtn" data-bs-toggle="modal" data-bs-target="#modal2" type="button">
+          <span>LET'S TALK!</span>
+        </button>
+      </div>
+      
+      <div class="social-icons"> 
+         <a href="#">
+          <picture>
+            <img src="../docs/instagram-brands.svg" alt="Instagram">
+          </picture>
+         </a>
+        
+         <a href="#">
+          <picture>
+            <img src="../docs/dribbble-brands.svg" alt="Dribble">
+          </picture>
+         </a>
+        
+         <a href="#">
+          <picture>
+            <img src="../docs/behance-brands.svg" alt="Behance">
+          </picture>
+  
+         </a>
+        
+      </div>
+
+      
+    </div>
+    
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

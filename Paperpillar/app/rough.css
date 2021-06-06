@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  max-width: 960px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-item .link-active:hover, .navbar-light .navbar-nav .nav-item .link-default:hover {
+  opacity: 1;
+  color: white;
+}
+
+.header {
+  background-image: url("D:/Git Front-End Projects/JavaScript-Projects/Paperpillar/docs/hero-pattern-bg.png");
+  background: linear-gradient(to top right, #450b7c, #563cc9, #49e9fb);
+}
+
+.navbar {
+  padding: .5rem 2rem .5rem 2rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: red;
+}
+
+.nav-item {
+  margin: 0 1rem 0 1rem;
+}
+
+.navbar-light .navbar-nav .nav-item .link-default {
+  opacity: 0.7;
+}
+
+.modal-fullscreen .modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.nav-item {
+  text-align: center;
+}
+
+a.nav-link.link-active {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+a.nav-link.link-default {
+  color: #525962;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  opacity: .7;
+}
+
+.header-menu .nav .nav-item + .nav-item {
+  margin-top: 50px;
+}
+
+li.nav-item.modal-item {
+  margin: 1rem 0;
+}
+
+.guy1 {
+  width: 150px;
+  height: 125px;
+}
+
+.girl {
+  width: 280px;
+  height: 125px;
+}
+
+.boy1, .lady {
+  text-align: center;
+}
+
+.char-group1 {
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .boy1 {
+    display: none;
+  }
+  .girl {
+    width: 200px;
+    height: 100px;
+  }
+  .char-group1 {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .guy1 {
+    width: 120px;
+    height: 100px;
+  }
+  .girl {
+    width: 200px;
+    height: 100px;
+  }
+  .char-group1 {
+    justify-content: space-around;
+  }
+}
+
+.title-text {
+  text-align: center;
+  color: #fff;
+}
+
+.title-text .main-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 105px;
+  letter-spacing: -1.8px;
+}
+
+.title-text p {
+  font-size: 18px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+}
+
+.title-text .button-talk {
+  padding: 1.5rem 0;
+}
+
+.title-text span {
+  font-size: 12px;
+  color: #5238b1;
+}
+
+.title-text .talk {
+  width: 220px;
+  height: 50px;
+  padding: 16px 32px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+  font-size: .688rem;
+  line-height: 18px;
+  letter-spacing: 1.54px;
+  border-radius: 25px;
+  border: none;
+}
+/*# sourceMappingURL=rough.css.map */

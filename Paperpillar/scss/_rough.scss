@@ -1,0 +1,468 @@
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paperpillar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!--HEADER-->
+
+ <header class="header">     
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">            
+                <a class="navbar-brand" href="#">
+                    <img src="../docs/logo-light.png" alt="" width="40" height="18">
+                  </a>
+              <button class="nav-toggler" id="modalbtn" data-bs-toggle="modal" data-bs-target=".modal-nav"
+               type="button" data-bs-target="#navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  
+                </span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link link-active" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-default" href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-default" href="#" id="modalbtn" data-bs-toggle="modal" data-bs-target=".contact-nav">CONTACT</a>
+                  </li>                  
+                </ul>
+              </div>           
+        </div>
+      </nav>
+    
+
+      <!--CHARACTER-->
+
+  <section class="characters">
+    <div class="container-fluid">
+      <div class="row" >
+        <div class="char-group1 d-flex mb-5">
+          <div class="col-sm-12 col-md-4 boy1">          
+            <img src="../docs/hero-guy-2.png" alt="Hero guy" class="guy1">    
+          </div>
+          <div class="col-sm-12 col-md-4 lady">          
+            <img src="../docs/hero-girl.png" alt="Hero girl" class="girl">       
+          </div>
+        </div>        
+      </div>
+    </div>
+  </section>
+
+
+  <!--Title text-->
+ 
+  <section class="title-text">
+   <div class="container-fluid">
+     <div class="title-p">
+      <h1 class="main-title mb-3">We Are Paperpillar</h1>
+      <p>A team of passionate designers and developers from Yogyakarta</p>
+     </div>
+   
+    <div class="button-talk">
+      <button class="talk">
+        <span>LET'S TALK!</span>
+      </button>
+  
+    </div>
+       </div>
+  
+
+       
+</section>
+
+ </header>
+
+ 
+    
+  <!-- Modal Nav-toggle -->
+  <div class="modal-nav fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">          
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <ul class="navbar-nav">
+                <li class="nav-item modal-item">
+                  <a class="nav-link link-active" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item modal-item">
+                  <a class="nav-link link-default" href="#">BLOG</a>
+                </li>
+                <li class="nav-item modal-item">
+                  <a class="nav-link link-default" href="#">CONTACT</a>
+                </li>                
+            </ul>          
+        </div>        
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--contact modal-->
+  
+  <div class="contact-nav fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content-new">
+        <div class="modal-header">     
+               
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body-new">
+         
+          <svg id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" class="curve duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#abb8c3ff"></stop><stop offset="95%" stop-color="#7bdcb5ff"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,300 0,300 C 156.21428571428572,238.07142857142856 312.42857142857144,176.14285714285714 418,206 C 523.5714285714286,235.85714285714286 578.5000000000001,357.5 668,389 C 757.4999999999999,420.5 881.5714285714287,361.85714285714283 1016,332 C 1150.4285714285713,302.14285714285717 1295.2142857142858,301.07142857142856 1440,300 C 1440,300 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
+          <div class="form">
+            <h1 class="talk">Let's Talk!</h1>
+            <p class="talk-p">We will get back to you within one to two days through email. Also please <br> don't forget to check your spam account just in case!</p>
+            <div class="mb-3">
+             
+              <input type="text" class="input-control" id="formGroupExampleInput" placeholder="Name *" required>
+            </div>
+            <div class="mb-3">
+              
+              <input type="text" class="input-control" id="formGroupExampleInput2" placeholder="Email *" required>
+            </div>
+            <div class="mb-3">
+             
+              <input type="text" class="input-control" id="formGroupExampleInput" placeholder="Subject *" required>
+            </div>
+            <div class="mb-3">
+              
+              <input type="text" class="input-control" id="formGroupExampleInput2" placeholder="Message *">
+            </div>
+            
+
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>    
+</body>
+</html>
+
+*/
+
+//-------------------------------------------------------
+
+
+
+/*
+
+
+@import 'utilities';
+@import 'config';
+@import 'media';
+//HEADER
+
+.header{
+    background-image: url("D:/Git Front-End Projects/JavaScript-Projects/Paperpillar/docs/hero-pattern-bg.png");
+    
+    background: linear-gradient(to top right,#450b7c,#563cc9,#49e9fb);;
+    
+}
+
+.navbar{
+    padding: .5rem 2rem .5rem 2rem;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    @extend %nav-text;
+}
+
+.nav-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    border-color: honeydew;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .nav-toggler {
+    display: none;
+}
+}
+.nav-item{
+    margin: 0 1rem 0 1rem;
+}
+
+.navbar-light .navbar-nav .nav-item .link-active:hover{
+    @extend %navlink-hover;
+}
+.navbar-light .navbar-nav .nav-item .link-default{
+    opacity: 0.7;    
+}
+.navbar-light .navbar-nav .nav-item .link-default:hover{
+    @extend %navlink-hover;    
+}
+
+
+//MODAL NAV-TOGGLE
+
+.modal-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+.modal-fullscreen .modal-header{
+    border-bottom: none;
+}
+
+li.nav-item {
+    text-align: center;
+}
+
+
+a.nav-link.link-active {
+    color: red;
+    font-family: "Montserrat", sans-serif;   
+    font-size: 11px;
+    font-weight: 500;
+}
+
+a.nav-link.link-default{
+    color: #525962;
+    font-family: "Montserrat", sans-serif;   
+    font-size: 11px;
+    font-weight: 500;
+    opacity: .7;
+}
+
+.header-menu .nav .nav-item+.nav-item {
+    margin-top: 50px;
+}
+
+li.nav-item.modal-item {
+    margin: 1rem 0;
+}
+
+.guy1{
+    width: 150px;
+    height: 125px;
+}
+.girl {
+    width: 280px;
+    height: 125px;
+}
+
+.boy1,.lady{
+    text-align: center;
+}
+
+.char-group1{
+    justify-content: space-between;
+}
+
+//MEDIA QUERIES
+@media(max-width:768px){
+    .boy1{
+        display: none;
+    }
+    .girl{
+        width: 200px;
+        height: 100px;
+    }
+    .char-group1{
+        justify-content: center;
+    }
+    }
+    
+    @media(max-width:992px) {
+        .guy1 {
+            width: 120px;
+            height: 100px;
+        }
+        .girl {
+            width: 200px;
+            height: 100px;
+        }
+        .char-group1{
+            justify-content: space-around;
+        }
+        
+    }
+
+
+    //title-text
+    .title-text{
+        text-align: center;
+        color: #fff;
+    
+    .main-title{
+        font-family: 'Playfair Display', serif;
+        font-size: 105px;        
+        letter-spacing: -1.8px;
+    }
+    p{
+        font-size: 18px;
+        font-family: Montserrat,sans-serif;
+        font-weight: 400;
+    }
+
+
+.button-talk{
+    padding:1.5rem 0 ;
+}
+    span{
+        font-size: 12px;
+        color: #5238b1;
+    }
+    .talk{
+    width: 220px;
+    height: 50px;
+    padding: 16px 32px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: .688rem;
+    line-height: 18px;
+    letter-spacing: 1.54px;
+    border-radius: 25px;
+    border: none;
+    }
+}
+
+@media(max-width:1200px){
+    .title-text .main-title{
+        font-size: 80px;
+    } 
+
+}
+
+@media(max-width:768px){
+    .title-text .main-title{
+        font-size: 55px;
+    } 
+
+    
+.title-text p {
+    font-size: 14px;
+    margin: auto;
+    max-width: 300px;
+}
+
+}
+
+
+//MODAL CONTACT-TOGGLE
+
+.contact-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 100%;
+   overflow-y: scroll;
+    outline: 0;
+}
+.modal-dialog-centered .modal-header{
+    border-bottom: none;
+}
+
+.modal-header{
+    margin: 3rem 2rem;
+}
+.modal-body-new{
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    overflow-y: unset;
+}
+.modal-content-new{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 50% 50% 50% 50% / 10% 10% 10% 10% ;
+    outline: 0;
+    width: 742px;
+    height: 700px;
+    overflow: hidden;
+}
+.curve{
+    position: relative;
+    bottom: 100px;
+    height: 245px;
+    right: 220px;
+    transform: rotate(
+140deg
+);
+}
+
+//Contact-modal Form
+
+.talk{
+font-family: "Playfair Display", serif;
+font-size: 45px;
+font-weight: 500;
+line-height: 54px;
+color: rgb(33, 37, 41);
+}
+.talk-p{
+font-family: Montserrat, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+color: rgb(117, 124, 152);
+margin-bottom: 2rem;
+}
+
+.input-control{
+    font-family: Montserrat, sans-serif;
+    display: block;
+    width: 70%;
+    padding: .375rem .75rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(149,154,176);
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+*/
